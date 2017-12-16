@@ -35,7 +35,7 @@ public class Session1 : MonoBehaviour {
     Dictionary<int, string> groupmember = new Dictionary<int, string>();
 
 
-
+    
 
     // Use this for initialization
     void Start()
@@ -47,7 +47,7 @@ public class Session1 : MonoBehaviour {
         myname = "update during start()";
 
         Debug.Log("Addition of myage and 3 is :" + AdditionOfNumbers(myage, 3));
-
+        
         clustername[4] = "RC3";
 
         Debug.Log("our research cluster is:" + clustername[4]);
